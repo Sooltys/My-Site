@@ -8,6 +8,7 @@ body {
 }
 #heading {
     width: 100%;
+    min-width: 600px;
     height: 100px;
     background-color: #feffff ;
     color: white;
