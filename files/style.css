@@ -1,44 +1,101 @@
 body {
     width: 100%;
+    min-width: 800px;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
-
+    display:inline-flex
 }
-
 #heading {
     width: 100%;
     height: 60px;
-    min-width: 300px;
-    background-color: #120258;
+    background-color: #14035e;
     color: aliceblue;
     margin: 0;
     padding-top: 17px;
-    display: block;
+    position: fixed;
 }
-#heading img {
-    border: 0;
-    border-radius: 3px;
-}
-
 #title {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 35px;
-    margin-left: 15px;
+    font-size: 38px;
+    margin-left: 25px;
     float: left;
 }
+#title:hover {
+    opacity: 0.6;
+}
+#title a {
+    text-decoration: none;
+    color: white;
+}
+#title img {
+    border: 0;
+    border-radius: 3px;
+    margin-right: 10px;
+}
 nav {
-    font-size: 20px;
     float: right;
     background-color: white;
     border-radius: 5px;
-    margin-right: 15px;
+    margin-right: 25px;
+    padding-right: 7px;
 }
 nav img {
     border: 0;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 5px;
+}
+nav img:hover {
+    opacity: 0.5;
 }
 nav a {
     text-decoration: none;
+}
+#content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 77px;
+}
+#first_block {
+    width: 100%;
+    background-image: url(./images/aboutme_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto; 
+}
+#aboutme {
+    color: #14035e;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px;
+    height: 260px;
+}
+#aboutme img {
+    border-radius: 25px;
+    float: left;
+    margin-right: 30px;
+}
+#aboutme p {
+    margin-top: 0;
+}
+#titleofcontent {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+#second_block {
+    width: 100%;
+    background-color: #14035e;
+    background-repeat: no-repeat;
+    overflow: auto; 
+}
+#currentprojects {
+    color: #14035e;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px;
 }
