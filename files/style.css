@@ -9,7 +9,7 @@ body {
 #heading {
     width: 100%;
     min-width: 600px;
-    height: 100px;
+    height: 80px;
     background-color: #feffff ;
     color: white;
     margin: 0;
@@ -57,7 +57,7 @@ nav a {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: 117px;
+    margin-top: 97px;
 }
 #first_block {
     width: 100%;
@@ -68,11 +68,12 @@ nav a {
 }
 #aboutme {
     color: #17252a;
-    background-color: #2b7a77b2  ;
+    background-color: #2b7a77c7  ;
     border-radius: 25px;
-    padding: 50px;
+    padding: 50px 100px;
     margin: 50px;
     height: 260px;
+    font-weight: bold;
 }
 #aboutme img {
     border-radius: 25px;
@@ -96,7 +97,7 @@ nav a {
 #currentprojects {
     height: 500px;
     color: #17252a ;
-    background-color: #feffff ;    ;
+    background-color: #def2f1 ;    ;
     border-radius: 25px;
     padding: 50px;
     margin: 50px;
@@ -110,11 +111,12 @@ nav a {
 }
 #education {
     color: #17252a;
-    background-color: #2b7a77b2;
+    background-color: #2b7a77c7;
     border-radius: 25px;
-    padding: 50px;
+    padding: 50px 100px;
     margin: 50px;
     height: 260px;
+    font-weight: bold;
 }
 #fourth_block {
     width: 100%;
@@ -124,7 +126,7 @@ nav a {
 #fourth {
     height: 500px;
     color: #17252a;
-    background-color: #feffff;
+    background-color: #def2f1;
     border-radius: 25px;
     padding: 50px;
     margin: 50px;
