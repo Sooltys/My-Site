@@ -109,9 +109,15 @@ nav a {
     color: #17252a;
     font-weight: bold;
 }
+#projects {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #project {
     padding: 10px;
-    margin: auto;
+    margin: 15px;
     width: 260px;
     border: 2px solid #2b7a78;
     border-radius: 10px;
