@@ -9,19 +9,19 @@ body {
 #heading {
     width: 100%;
     min-width: 600px;
-    height: 80px;
+    height: 10%;
     background-color: #feffff ;
     color: white;
     margin: 0;
-    padding-top: 17px;
     position: fixed;
 }
 #title {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 55px;
+    font-size: 5vh;
     margin-left: 25px;
     float: left;
     font-weight: bold;
+    margin-top: 2vh;
 }
 #title:hover {
     opacity: 0.5;
@@ -35,6 +35,7 @@ body {
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
+    height: 6vh;
 }
 nav {
     float: right;
@@ -42,11 +43,14 @@ nav {
     border-radius: 5px;
     margin-right: 25px;
     padding-right: 7px;
+    margin-top: 2vh;
 }
 nav img {
     border: 0;
     margin-left: 10px;
     margin-top: 5px;
+    height: 5.5vh;
+    width: 5.5vh;
 }
 nav img:hover {
     opacity: 0.5;
@@ -56,9 +60,11 @@ nav a {
 }
 #content {
     width: 100%;
-    margin: 0;
     padding: 0;
-    margin-top: 97px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 10vh;
 }
 #first_block {
     width: 100%;
@@ -69,13 +75,14 @@ nav a {
 }
 #aboutme {
     color: #17252a;
-    background-color: #2b7a77e3  ;
+    background: rgb(82,221,214);
+    background: linear-gradient(180deg, rgba(82,221,214,0.8004640371229699) 5%, rgba(43,122,119,0.7981438515081206) 90%);
     border-radius: 10px;
     padding: 50px 100px;
     margin: 100px 50px;
     height: 260px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.15em;
 }
 #aboutme img {
     border-radius: 25px;
@@ -93,7 +100,9 @@ nav a {
 }
 #second_block {
     width: 100%;
-    background-color: #2b7a78  ;
+    /*background-color: #2b7a78;*/
+    background: rgb(82,221,214);
+    background: radial-gradient(circle, rgba(82,221,214,1) 25%, rgba(43,122,119,1) 100%);
     overflow: auto; 
 }
 #currentprojects {
@@ -146,7 +155,8 @@ nav a {
 }
 #education {
     color: #17252a;
-    background-color: #2b7a77e3;
+    background: rgb(82,221,214);
+    background: linear-gradient(180deg, rgba(82,221,214,0.8004640371229699) 5%, rgba(43,122,119,0.7981438515081206) 90%);
     border-radius: 10px;
     padding: 50px 100px;
     margin: 100px 50px;
@@ -160,7 +170,9 @@ nav a {
 }
 #fourth_block {
     width: 100%;
-    background-color: #2b7a78;
+    /*background-color: #2b7a78;*/
+    background: rgb(82,221,214);
+    background: radial-gradient(circle, rgba(82,221,214,1) 25%, rgba(43,122,119,1) 100%);
     overflow: auto; 
 }
 #fourth {
@@ -169,6 +181,7 @@ nav a {
     border-radius: 10px;
     padding: 50px;
     margin: 100px 50px;
+    font-size: 0.8em;
 }
 #footer {
     background-color: #feffff;
